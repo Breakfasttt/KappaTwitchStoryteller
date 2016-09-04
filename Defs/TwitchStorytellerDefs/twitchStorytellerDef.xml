@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<StorytellerDef>
+		<defName>Kappa</defName>
+		<label>Kappa, the twitch storyteller</label>
+		<description>Kappa creates story events based on twitch viewers reaction. Care to the !raid and don't forget to configure Twitch connection on mod option :).</description>
+		<portraitLarge>Things/kappaLarge</portraitLarge>
+		<portraitTiny>Things/kappaTiny</portraitTiny>
+		<listOrder>99</listOrder>
+		<desiredPopulationMin>5</desiredPopulationMin>
+		<desiredPopulationMax>15</desiredPopulationMax>
+		<desiredPopulationCritical>22</desiredPopulationCritical>
+		<comps>
+		  <li Class="StorytellerCompProperties_ClassicIntro"/>
+		  <li Class="StorytellerCompProperties_ThreatCycle">
+			<minDaysPassed>5</minDaysPassed>
+			<mtbDaysThreatSmall>3.75</mtbDaysThreatSmall>
+			<mtbDaysThreatBig>1.25</mtbDaysThreatBig>
+			<threatCycleLength>9.2</threatCycleLength>
+			<minDaysBetweenThreatBigs>2.1</minDaysBetweenThreatBigs>
+		  </li>
+		  <li Class="StorytellerCompProperties_CategoryMTB">
+			<minDaysPassed>5</minDaysPassed>
+			<category>Misc</category>
+			<mtbDays>1.60</mtbDays>
+		  </li>
+		  <li Class="StorytellerCompProperties_AllyInteraction">
+			<minDaysPassed>5</minDaysPassed>
+			<baseMtb>6</baseMtb>
+		  </li>
+		  <li Class="StorytellerCompProperties_SingleMTB">
+			<incident>OrbitalTraderArrival</incident>
+			<mtbDays>13</mtbDays>
+		  </li>
+		  <li Class="StorytellerCompProperties_ShipChunkDrop"/>
+		  <li Class="StorytellerCompProperties_Disease">
+			<minDaysPassed>5</minDaysPassed>
+		  </li>
+		</comps>
+	 </StorytellerDef>
+ 
+ </Defs>
