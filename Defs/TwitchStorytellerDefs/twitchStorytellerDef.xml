@@ -12,30 +12,9 @@
 		<desiredPopulationMax>15</desiredPopulationMax>
 		<desiredPopulationCritical>22</desiredPopulationCritical>
 		<comps>
-		  <li Class="StorytellerCompProperties_ClassicIntro"/>
-		  <li Class="StorytellerCompProperties_ThreatCycle">
-			<minDaysPassed>5</minDaysPassed>
-			<mtbDaysThreatSmall>3.75</mtbDaysThreatSmall>
-			<mtbDaysThreatBig>1.25</mtbDaysThreatBig>
-			<threatCycleLength>9.2</threatCycleLength>
-			<minDaysBetweenThreatBigs>2.1</minDaysBetweenThreatBigs>
-		  </li>
-		  <li Class="StorytellerCompProperties_CategoryMTB">
-			<minDaysPassed>5</minDaysPassed>
-			<category>Misc</category>
-			<mtbDays>1.60</mtbDays>
-		  </li>
-		  <li Class="StorytellerCompProperties_AllyInteraction">
-			<minDaysPassed>5</minDaysPassed>
-			<baseMtb>6</baseMtb>
-		  </li>
 		  <li Class="StorytellerCompProperties_SingleMTB">
-			<incident>OrbitalTraderArrival</incident>
-			<mtbDays>13</mtbDays>
-		  </li>
-		  <li Class="StorytellerCompProperties_ShipChunkDrop"/>
-		  <li Class="StorytellerCompProperties_Disease">
-			<minDaysPassed>5</minDaysPassed>
+			<incident>TwitchVote</incident>
+			<mtbDays>1</mtbDays>
 		  </li>
 		</comps>
 	 </StorytellerDef>

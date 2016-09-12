@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IncidentWorker_ViewerVote.cs" />
+    <Compile Include="SimpleTimer.cs" />
     <Compile Include="VoteWindow.cs" />
     <Compile Include="kappaTwitchStoryTeller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
