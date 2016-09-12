@@ -6,8 +6,8 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>twitchNarrator</RootNamespace>
-    <AssemblyName>KappaTwitchStoryTeller</AssemblyName>
+    <RootNamespace>KappaTwitchStoryteller</RootNamespace>
+    <AssemblyName>KappaTwitchStoryteller</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
@@ -62,7 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
+    <Compile Include="IncidentWorker_ViewerVote.cs" />
+    <Compile Include="VoteWindow.cs" />
+    <Compile Include="kappaTwitchStoryTeller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

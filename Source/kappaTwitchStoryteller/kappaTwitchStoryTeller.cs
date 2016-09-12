@@ -10,12 +10,13 @@ using System;
 using RimWorld;
 using System.Collections.Generic;
 
-namespace kappaTwitchStoryTeller
+namespace KappaTwitchStoryteller
 {
-	/// <summary>
-	/// Description of MyClass.
-	/// </summary>
-	public class MyClass
-	{
+
+	class KappaTwitchStoryteller
+	{	
+		public KappaTwitchStoryteller()
+		{
+		}	
 	}
 }
